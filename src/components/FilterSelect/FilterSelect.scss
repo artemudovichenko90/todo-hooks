@@ -1,0 +1,17 @@
+.filter-select {
+  &__indicator {
+    padding: 16px !important;
+    background-color: #53006f !important;
+  }
+
+  &__control {
+    width: 200px !important;
+    min-height: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  &__menu {
+    width: 200px !important;
+  }
+}
