@@ -1,0 +1,34 @@
+.title {
+  margin-top: 50px;
+}
+
+.taskInput {
+  margin-bottom: 20px;
+}
+
+.task {
+  margin-top: 15px;
+}
+
+.config {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+
+
+@media screen and (min-width:590px) {
+
+  .config {
+    flex-direction: row;
+  }
+
+  .taskInput {
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
